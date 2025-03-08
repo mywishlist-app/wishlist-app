@@ -7,14 +7,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "qrcode.react": "^3.0.0",
-    "react-share": "^4.4.0"
+    "react-share": "^4.4.0",
+    "vite": "^4.5.9"
   },
   "scripts": {
-    "preinstall": "rm -rf node_modules package-lock.json",
     "start": "vite",
     "build": "vite build"
-  },
-  "devDependencies": {
-    "vite": "^4.5.9"
   }
 }
